@@ -145,6 +145,7 @@ ChipInfo_GetChipType( void )
       case 0x4 :
       case 0xC :
          chipType = CHIP_TYPE_CC2630 ;
+         break;	// missing in "v2.24.03.17272"
       case 0x1 :
       case 0x9 :
          chipType = CHIP_TYPE_CC2640 ;
